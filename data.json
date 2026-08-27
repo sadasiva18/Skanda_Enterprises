@@ -1,0 +1,223 @@
+{
+  "business": {
+    "name": { "te": "స్కంద ఎంటర్‌ప్రైజెస్", "en": "Skanda Enterprises" },
+    "tagline": { "te": "స్వచ్ఛమైన నాణ్యత\nసరసమైన ధరలు", "en": "Pure Extraction · Honest Sourcing" },
+    "intro": {
+      "te": "సాంప్రదాయ పద్ధతిలో చెక్క గానుగ ద్వారా తీసిన స్వచ్ఛమైన నూనెలు. రసాయనాలు లేని సహజ సిద్ధమైన ఆరోగ్యం.",
+      "en": "Traditionally extracted cold-pressed oils using wooden kolhu. 100% natural, chemical-free, and nutrient-dense."
+    },
+    "whatsapp": "919000055035",
+    "location": { "te": "కల్లూరు పి.జి. రోడ్", "en": "Kallur P. G. Road - 517113" }
+  },
+  "sections": [
+    {
+      "key": "sell",
+      "title": { "te": "మా ఉత్పత్తులు", "en": "Our Products" },
+      "accent": "gold",
+      "categories": [
+        {
+          "title": { "te": "చెక్క గానుగ నూనెలు", "en": "Wood Cold-Pressed Oils" },
+          "icon": "oil",
+          "items": [
+            {
+              "te": "కొబ్బరి నూనె",
+              "en": "Coconut Oil",
+              "image": "images/coconut-oil.jpg",
+              "rating": 4.9,
+              "reviewsCount": 428,
+              "badge": "Best Seller",
+              "description": { "te": "స్వచ్ఛమైన ఎండబెట్టిన కొబ్బరి నుండి తీసినది. వంటకు మరియు జుట్టుకు ఎంతో మేలు.", "en": "Extracted from premium sun-dried copra. Excellent for cooking and hair care." },
+              "sizes": [
+                { "label": "1 Litre", "price": 230, "originalPrice": 490 }
+              ]
+            },
+            {
+              "te": "వేరుశెనగ నూనె",
+              "en": "Groundnut Oil",
+              "image": "images/groundnut-oil.jpg",
+              "rating": 4.5,
+              "reviewsCount": 308,
+              "badge": "Best Seller",
+              "description": { "te": "స్వచ్ఛమైన వేరుశెనగల నుండి తీసిన నాణ్యమైన నూనె. వంటకు ఎంతో మేలు మరియు సహజమైన రుచిని అందిస్తుంది.", "en": "Extracted from premium groundnuts. Rich in natural flavor and excellent for everyday cooking." },
+              "sizes": [
+                { "label": "1 Litre", "price": 200, "originalPrice": 300 }
+              ]
+            },
+            {
+              "te": "నువ్వుల నూనె",
+              "en": "Sesame Oil",
+              "image": "images/sesame-oil.jpg",
+              "rating": 4.8,
+              "reviewsCount": 216,
+              "badge": "Pure Organic",
+              "description": { "te": "సాంప్రదాయ పద్ధతిలో తీసిన నువ్వుల నూనె. పూజలకు మరియు వంటకు శ్రేష్ఠమైనది.", "en": "Rich in antioxidants. Perfect for traditional cooking and wellness." },
+              "sizes": [
+                { "label": "1 Litre", "price": 400, "originalPrice": 610 }
+              ]
+            },
+            {
+              "te": "వేప నూనె",
+              "en": "Neem Oil",
+              "image": "images/neem-oil.jpg",
+              "rating": 4.7,
+              "reviewsCount": 94,
+              "badge": "100% Herbal",
+              "description": { "te": "కీటకాల నివారణకు మరియు చర్మ రక్షణకు సహజ సిద్ధమైన వేప నూనె.", "en": "Natural neem oil. Highly effective for skincare and agricultural pest control." },
+              "sizes": [
+                { "label": "1 Litre", "price": 310, "originalPrice": 380 }
+              ]
+            },
+            {
+              "te": "దీపం నూనె",
+              "en": "Deepam Oil",
+              "image": "images/deepam-oil.jpg",
+              "rating": 4.9,
+              "reviewsCount": 310,
+              "badge": "Pooja Special",
+              "description": { "te": "శుభ్రమైన మరియు సువాసనభరితమైన పూజా దీపారాధన నూనె.", "en": "Special aromatic oil blend designed for pooja and long-burning lamps." },
+              "sizes": [
+                { "label": "1 Litre", "price": 160, "originalPrice": 200 }
+              ]
+            },
+            {
+              "te": "ఆముదం",
+              "en": "Castor Oil",
+              "image": "images/castor-oil.jpg",
+              "rating": 4.7,
+              "reviewsCount": 83,
+              "badge": "Thick & Pure",
+              "description": { "te": "జుట్టు పెరుగుదలకు మరియు చర్మ సంరక్షణకు ఉపయోగపడే చిక్కని ఆముదం.", "en": "Cold-pressed castor oil. Thick, pure, and ideal for deep moisturizing." },
+              "sizes": [
+                { "label": "1 Litre", "price": 200, "originalPrice": 240 }
+              ]
+            },
+            {
+              "te": "ఇప్ప నూనె",
+              "en": "Mahua Oil",
+              "image": "images/mahua-oil.jpg",
+              "rating": 4.6,
+              "reviewsCount": 42,
+              "badge": "Traditional",
+              "description": { "te": "గిరిజన ప్రాంతాల నుండి సేకరించిన ఇప్ప గింజల నుండి తీసిన నూనె.", "en": "Extracted from ethically gathered Mahua seeds. Used for lighting and body massage." },
+              "sizes": [
+                { "label": "1 Litre", "price": 40, "originalPrice": 100 }
+              ]
+            }
+          ]
+        },
+        {
+          "title": { "te": "సేంద్రియ పిండి & ఇతరాలు", "en": "Organic Flours & Powders" },
+          "icon": "leaf",
+          "items": [
+            {
+              "te": "వేప పిండి",
+              "en": "Neem Powder",
+              "image": "images/neem-powder.jpg",
+              "rating": 4.8,
+              "reviewsCount": 112,
+              "badge": "Best Fertilizer",
+              "description": { "te": "మొక్కల ఎదుగుదలకు ఉపయోగపడే అద్భుతమైన సహజ ఎరువు మరియు పురుగుమందు.", "en": "Deoiled neem cake powder. Premium organic fertilizer and soil conditioner." },
+              "sizes": [
+                { "label": "1 kg", "price": 30, "originalPrice": 50 }
+              ]
+            },
+            {
+              "te": "కానుగ పిండి",
+              "en": "Pongamia Powder",
+              "image": "images/pongamia-powder.jpg",
+              "rating": 4.6,
+              "reviewsCount": 54,
+              "badge": "Soil Enricher",
+              "description": { "te": "భూమికి బలాన్ని చేకూర్చే మరియు చీడపీడల నుండి కాపాడే కానుగ పిండి.", "en": "Rich in nitrogen and compounds that control soil-borne pests naturally." },
+              "sizes": [
+                { "label": "1 kg", "price": 45, "originalPrice": 80 }
+              ]
+            },
+            {
+              "te": "శనగ పిండి",
+              "en": "Gram Flour",
+              "image": "images/gram.jpg",
+              "rating": 4.9,
+              "reviewsCount": 188,
+              "badge": "Stone Ground",
+              "description": { "te": "రాతి గానుగపై ఆడించిన స్వచ్ఛమైన శనగ పిండి. వంటకాలకు మరియు ఫేస్ ప్యాక్‌కు అనుకూలం.", "en": "Pure stone-ground chana dal flour. Perfect for healthy cooking and skincare." },
+              "sizes": [
+                { "label": "1 kg", "price": 60, "originalPrice": 80 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "buy",
+      "title": { "te": "రైతుల కొనుగోలు విభాగం", "en": "Farmer Sourcing Center" },
+      "accent": "soil",
+      "categories": [
+        {
+          "title": { "te": "మేము కొనుగోలు చేయు గింజలు", "en": "Seeds We Buy Directly" },
+          "icon": "seed",
+          "items": [
+            {
+              "te": "ఎండు కొబ్బరి",
+              "en": "Dry Copra",
+              "image": "images/copra-seeds.jpg",
+              "buyingPrice": "₹70 / kg",
+              "requirement": { "te": "బూజు లేనిది, తగినంత తేమ శాతం ఉన్నది.", "en": "Well-dried, mold-free copra cups." }
+            },
+            {
+              "te": "వేప గింజలు",
+              "en": "Neem Seeds",
+              "image": "images/neem-seeds.jpg",
+              "buyingPrice": "₹60 / kg",
+              "requirement": { "te": "శుభ్రంగా ఎండబెట్టినది, మట్టి లేనిది.", "en": "Sun-dried seeds with no sand or dust." }
+            },
+            {
+              "te": "ఆముదాలు",
+              "en": "Castor Seeds",
+              "image": "images/castor-seeds.jpg",
+              "buyingPrice": "₹60 / kg",
+              "requirement": { "te": "నాణ్యమైన గింజలు, గుల్లలు లేనివి.", "en": "Mature seeds, dry, free of empty shells." }
+            },
+            {
+              "te": "కానుగ గింజలు",
+              "en": "Kanuga Seeds",
+              "image": "images/kanuga.jpg",
+              "buyingPrice": "₹45 / kg",
+              "requirement": { "te": "దృఢమైనవి, కీటకాలు ఆశించనివి.", "en": "Intact seeds, free of insect infestation." }
+            },
+            {
+              "te": "చింత గింజలు",
+              "en": "Tamarind Seeds",
+              "image": "images/tamarind.jpg",
+              "buyingPrice": "₹20 / kg",
+              "requirement": { "te": "బాగా ఎండినవి, పొట్టు లేనివి.", "en": "Thoroughly dried and cleaned." }
+            },
+            {
+              "te": "ఉలవలు",
+              "en": "Horse Grams",
+              "image": "images/horse-gram.jpg",
+              "buyingPrice": "₹18 / kg",
+              "requirement": { "te": "పొట్టు గింజలు, సన్న రకం.", "en": "Polished, dry seeds free from small stones." }
+            },
+            {
+              "te": "కుంకుడుకాయలు",
+              "en": "Soapnuts",
+              "image": "images/Soapnuts.jpg",
+              "buyingPrice": "₹25 / kg",
+              "requirement": { "te": "పూర్తిగా ఎండిన, మంచి నాణ్యత గల కుంకుడుకాయలు. రాళ్లు, మట్టి మరియు ఇతర మలినాలు లేకుండా ఉండాలి.", "en": "Fully dried, good-quality soapnuts free from stones, soil, and other impurities." }
+            },
+            {
+              "te": "పాత చింతపండు",
+              "en": "Old Tamarind",
+              "image": "images/old-tamarind.jpg",
+              "buyingPrice": "₹40 / kg",
+              "requirement": { "te": "మంచి నాణ్యత గల పాత చింతపండు. తేమ, పురుగులు మరియు ఇతర మలినాలు లేకుండా ఉండాలి.", "en": "Good-quality aged tamarind, free from moisture, insects, and other impurities." }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

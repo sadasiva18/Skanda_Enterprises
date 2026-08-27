@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skanda Enterprises · Premium Wood Cold Pressed Oils</title>
+  <meta name="description" content="Premium quality wood-pressed oils (Lakdi Ghani) and organic flours. Pure, chemical-free, lab-tested, and sourced directly from local farmers.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23C58B12'/%3E%3Ctext x='50' y='68' font-size='46' text-anchor='middle' fill='%23fff'%3E%E0%B0%B8%E0%B0%BF%3C/text%3E%3C/svg%3E">
+  
+  <!-- Local Business Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Skanda Enterprises",
+    "description": "Premium wood cold-pressed oils and organic powders, sourced directly from local farmers.",
+    "telephone": "+919000055035",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kallur P. G. Road",
+      "postalCode": "517113",
+      "addressCountry": "IN"
+    },
+    "openingHours": "Mo-Sa 09:00-19:00",
+    "priceRange": "₹₹"
+  }
+  </script>
+  
+  <!-- Preconnect and Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&family=Noto+Sans+Telugu:wght@300;400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons for modern aesthetic -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Film Grain Aesthetic Overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-track">
+      <span class="announcement-item"><i class="fa-solid fa-droplet icon-gold"></i> Pure Cold Pressed Oils at 15% OFF | Code: <strong>PURE15</strong></span>
+      <span class="announcement-item"><i class="fa-solid fa-leaf icon-green"></i> 100% Chemical &amp; Solvent Free Extraction</span>
+      <span class="announcement-item"><i class="fa-solid fa-seedling icon-soil"></i> Ethically Sourced Directly From Indian Farmers</span>
+      <span class="announcement-item"><i class="fa-solid fa-vial-circle-check icon-gold"></i> Lab-Tested for Purity &amp; Quality</span>
+      <span class="announcement-item"><i class="fa-solid fa-tree icon-green"></i> Traditional Wooden Kolhu (Lakdi Ghani) Extraction</span>
+      <span class="announcement-item"><i class="fa-solid fa-truck-fast icon-soil"></i> Bulk &amp; Wholesale Orders Available — Contact Us Today</span>
+      <!-- Duplicate set for seamless loop -->
+      <span class="announcement-item"><i class="fa-solid fa-droplet icon-gold"></i> Pure Cold Pressed Oils at 15% OFF | Code: <strong>PURE15</strong></span>
+      <span class="announcement-item"><i class="fa-solid fa-leaf icon-green"></i> 100% Chemical &amp; Solvent Free Extraction</span>
+      <span class="announcement-item"><i class="fa-solid fa-seedling icon-soil"></i> Ethically Sourced Directly From Indian Farmers</span>
+      <span class="announcement-item"><i class="fa-solid fa-vial-circle-check icon-gold"></i> Lab-Tested for Purity &amp; Quality</span>
+      <span class="announcement-item"><i class="fa-solid fa-tree icon-green"></i> Traditional Wooden Kolhu (Lakdi Ghani) Extraction</span>
+      <span class="announcement-item"><i class="fa-solid fa-truck-fast icon-soil"></i> Bulk &amp; Wholesale Orders Available — Contact Us Today</span>
+    </div>
+  </div>
+  </div>
+
+  <!-- Main Navigation -->
+  <header class="main-header" id="main-header">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">
+        <div class="logo-mark"><i class="fa-solid fa-mortar-pestle"></i></div>
+        <div class="brand-text">
+          <h1 class="brand-name-te" id="business-name-te">స్కంద ఎంటర్‌ప్రైజెస్</h1>
+          <span class="brand-name-en" id="business-name-en">SKANDA ENTERPRISES</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#shop" class="nav-link">Shop Products</a>
+        <a href="#sourcing" class="nav-link">Farmer Corner</a>
+        <a href="#process" class="nav-link">Our Process</a>
+        <a href="#faqs" class="nav-link">FAQs</a>
+        <a href="#testimonials" class="nav-link">Reviews</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Language Switcher Button -->
+        <button id="lang-toggle-btn" class="lang-btn" aria-label="Switch Language">
+          <i class="fa-solid fa-language"></i> <span id="current-lang-label">TELUGU</span>
+        </button>
+        <!-- Shopping Cart Trigger Button -->
+        <button id="cart-toggle-btn" class="cart-btn" aria-label="Open Cart">
+          <i class="fa-solid fa-shopping-basket"></i>
+          <span class="cart-count" id="cart-count">0</span>
+        </button>
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Sidebar Menu -->
+  <div class="mobile-sidebar" id="mobile-sidebar">
+    <div class="mobile-sidebar-header">
+      <span class="mobile-menu-title">Menu</span>
+      <button id="mobile-sidebar-close" class="close-btn" aria-label="Close Menu"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="#shop" class="mobile-nav-link">Shop Products</a>
+      <a href="#sourcing" class="mobile-nav-link">Farmer Corner</a>
+      <a href="#process" class="mobile-nav-link">Our Process</a>
+      <a href="#faqs" class="mobile-nav-link">FAQs</a>
+      <a href="#testimonials" class="mobile-nav-link">Reviews</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Banner Section -->
+    <section class="hero-section" style="background-image: linear-gradient(180deg, rgba(29, 21, 16, 0.75) 0%, rgba(29, 21, 16, 0.9) 100%), url('images/hero.jpg');">
+      <div class="hero-content">
+        <span class="hero-badge"><i class="fa-solid fa-award"></i> Traditional Wood Pressing</span>
+        <h2 class="hero-title">
+          <span class="te" id="business-tagline-te">స్వచ్ఛమైన నాణ్యత
+సరసమైన ధరలు</span>
+          <span class="en" id="business-tagline-en">Taste the Purity of Traditional Oils</span>
+        </h2>
+        <p class="hero-subtitle te" id="business-intro-te">సాంప్రదాయ పద్ధతిలో చెక్క గానుగ ద్వారా తీసిన స్వచ్ఛమైన నూనెలు. రసాయనాలు లేని సహజ సిద్ధమైన ఆరోగ్యం.</p>
+        <p class="hero-subtitle en" id="business-intro-en" style="display: none;">Traditionally extracted cold-pressed oils using wooden kolhu. 100% natural, chemical-free, and nutrient-dense.</p>
+        <div class="hero-actions">
+          <a href="#shop" class="btn btn-primary">Shop Products <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#sourcing" class="btn btn-secondary">Farmer Corner <i class="fa-solid fa-wheat-awn"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 01. E-Commerce Store Section (WE SELL - Moved up!) -->
+    <section id="shop" class="shop-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="eyebrow">Storefront</span>
+          <h2 class="section-title">
+            <span class="te">మా ఉత్పత్తులు</span>
+            <span class="en" style="display: none;">Shop Our Range</span>
+          </h2>
+          <p class="section-subtitle">Browse through our range of raw-grade cold-pressed oils and organic powders.</p>
+        </div>
+
+        <!-- Search and Filter Bar -->
+        <div class="store-controls">
+          <div class="search-bar-container">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="search-input" placeholder="Search products... (నూనె, పౌడర్)" aria-label="Search Products">
+            <button id="search-clear-btn" class="search-clear-btn" aria-label="Clear Search" style="display: none;">
+              <i class="fa-solid fa-circle-xmark"></i>
+            </button>
+          </div>
+          
+          <div class="filter-tabs-container">
+            <div class="filter-tabs" id="filter-tabs">
+              <button class="filter-btn active" data-filter="all">All Products</button>
+              <button class="filter-btn" data-filter="oil">Cold-Pressed Oils</button>
+              <button class="filter-btn" data-filter="leaf">Organic Powders</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Cards Grid -->
+        <div class="products-grid" id="products-grid">
+          <!-- Dynamic loading via script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 02. Farmer Sourcing / Corner Section (WE BUY - Moved up & Visualized!) -->
+    <section id="sourcing" class="sourcing-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="eyebrow">For Our Farmers</span>
+          <h2>
+            <span class="te">రైతుల కొనుగోలు విభాగం</span>
+            <span class="en" style="display: none;">Farmer Sourcing Corner</span>
+          </h2>
+          <p class="section-subtitle">We buy premium grade oilseeds directly from local farmers at guaranteed fair cash prices.</p>
+        </div>
+
+        <!-- Dynamic Seeds Cards Grid with Images -->
+        <h3 class="seeds-grid-title">Seeds We Purchase</h3>
+        <div class="seeds-grid" id="seeds-grid">
+          <!-- Dynamically populated from script.js -->
+        </div>
+
+        <!-- Sourcing Benefits Horizontal layout -->
+        <div class="sourcing-benefits-horizontal">
+          <div class="benefit-item">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+            <div>
+              <h4>Guaranteed Fair Prices</h4>
+              <p>We matching or beat APMC market prices based on oil content and quality.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <i class="fa-solid fa-bolt"></i>
+            <div>
+              <h4>Instant Spot Settlements</h4>
+              <p>Immediate weighing, grading, and cash/bank transfer settlements upon delivery.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03. Extraction Process Timeline Section -->
+    <section id="process" class="process-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="eyebrow">Our Method</span>
+          <h2>
+            <span class="te">నూనె ఎలా తీస్తాము?</span>
+            <span class="en" style="display: none;">Traditional Extraction Process</span>
+          </h2>
+          <p class="section-subtitle">A transparent view into our chemical-free, slow extraction method.</p>
+        </div>
+
+        <div class="process-timeline">
+          <div class="process-step">
+            <div class="process-num">01</div>
+            <div class="process-box">
+              <h3>Sourcing & Drying</h3>
+              <p>We source rich seeds from local farms and sun-dry them until optimum moisture is reached. This naturally enhances shelf life.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-num">02</div>
+            <div class="process-box">
+              <h3>Wooden Kolhu Press</h3>
+              <p>Seeds are crushed in a wooden mortar (kolhu) using a slow pestle. No heat is generated during the extraction, preventing nutrient loss.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-num">03</div>
+            <div class="process-box">
+              <h3>Sedimentation</h3>
+              <p>Instead of refining with chemicals, the oil is kept in tanks for 3–4 days to let impurities settle down naturally.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-num">04</div>
+            <div class="process-box">
+              <h3>Eco-Packaging</h3>
+              <p>Pure oil is passed through double cotton cloth filters and packed in eco-friendly containers ready for your kitchen.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04. FAQ Accordion Section -->
+    <section id="faqs" class="faq-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="eyebrow">Queries</span>
+          <h2>Frequently Asked Questions</h2>
+          <p class="section-subtitle">Got questions? Find direct, transparent answers right here.</p>
+        </div>
+
+        <div class="faq-accordion-container">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What is the difference between wood-pressed and regular refined oils?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Refined oils are extracted using high heat (above 200°C) and toxic chemical solvents (like hexane), then bleached and deodorized. This strips away all nutrition. Our wood-pressed oils are slowly crushed in traditional wooden mortars (kolhus) under 45°C with zero chemicals, preserving all organic antioxidants, minerals, fatty acids, and authentic taste.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can local farmers bring their own seeds to get pressed at the mill?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, absolutely! We offer custom seed-pressing services (గానుగ ఆడించడం) for farmers. You can bring your dried copra, groundnuts, mustard, or sesame seeds. We will clean, press them in our wooden kolhus, and return 100% pure oil and oilcake to you for a nominal service fee.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How long does Skanda's wood cold-pressed oil remain fresh?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Because our oil contains no chemical preservatives, it is best consumed within 6 to 9 months of extraction. Store it in a cool, dry place away from direct sunlight. Keeping it in our high-grade glass bottles or food tins naturally preserves freshness longer than cheap plastic bottles.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do you provide bulk deliveries for restaurants or events?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, we do! We provide special bulk wholesale pricing in 5 Litre tins, 15 kg canisters, and custom bulk packages for hotels, Ayurvedic pharmacies, restaurants, and marriage events. Please contact us via WhatsApp (+91 90000 55035) with your wholesale requirements.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How are seed quality parameters tested for farmer purchases?</span>
+              <i class="fa-solid fa-chevron-down faq-icon"></i>
+            </button>
+            <div class="faq-answer">
+              <p>We evaluate seed moisture content (should be under 8-10% to ensure high-quality extraction) and test for the absence of dust, mold, or stones. If the quality meets these criteria, we settle payments instantly on the spot based on the day's reference market rates.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05. Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="eyebrow">Testimonials</span>
+          <h2>What Our Customers Say</h2>
+          <p class="section-subtitle">Real reviews from people who switched to Skanda's pure oils.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="test-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="test-text">"The aroma of coconut oil is amazing. It tastes exactly like the home-pressed oil my grandmother used to make. Highly recommended!"</p>
+            <div class="test-user">
+              <div class="user-info">
+                <strong>Anusha Reddy</strong>
+                <span>Verified Buyer, Hyderabad</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="test-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="test-text">"I buy their wood-pressed sesame oil regularly. It’s clean, has a beautiful golden tint, and has completely changed our family cooking health."</p>
+            <div class="test-user">
+              <div class="user-info">
+                <strong>Ramanadha Rao</strong>
+                <span>Farmer & Customer, Medak</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="test-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <p class="test-text">"Outstanding neem fertilizer. My backyard organic garden has bloomed ever since I started applying their neem cake powder. 5 stars!"</p>
+            <div class="test-user">
+              <div class="user-info">
+                <strong>Kiran Kumar</strong>
+                <span>Urban Gardener, Nizamabad</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06. Trust Badges Section (Moved to the bottom!) -->
+    <section class="trust-badges-section" style="padding-top: 5rem; padding-bottom: 5rem; background: var(--bg-secondary); border-top: 1px solid var(--color-border);">
+      <div class="section-container">
+        <div class="section-header" style="margin-bottom: 2.5rem;">
+          <span class="eyebrow">Our Promises</span>
+          <h2>Authentic Skanda Standards</h2>
+          <p class="section-subtitle">Why households choose and trust our wood-pressed organic products.</p>
+        </div>
+        <div class="trust-grid">
+          <div class="trust-card">
+            <div class="trust-icon"><i class="fa-solid fa-tree"></i></div>
+            <div class="trust-text">
+              <h3>Traditional Kolhu</h3>
+              <p>Slowly crushed under 45°C using Vagai wood, preserving crucial nutrients and authentic flavor.</p>
+            </div>
+          </div>
+          <div class="trust-card">
+            <div class="trust-icon"><i class="fa-solid fa-vial-circle-check"></i></div>
+            <div class="trust-text">
+              <h3>100% Lab Tested</h3>
+              <p>Zero mineral oils, chemical solvents, preservatives, or artificial coloring agents. Pure nature.</p>
+            </div>
+          </div>
+          <div class="trust-card">
+            <div class="trust-icon"><i class="fa-solid fa-people-carry-box"></i></div>
+            <div class="trust-text">
+              <h3>Direct Sourcing</h3>
+              <p>We source clean, premium grade seeds directly from local farmers at fair guaranteed pricing.</p>
+            </div>
+          </div>
+          <div class="trust-card">
+            <div class="trust-icon"><i class="fa-solid fa-bottle-droplet"></i></div>
+            <div class="trust-text">
+              <h3>Eco Packaging</h3>
+              <p>Bottled hygienically in glass containers and eco-tins to retain purity and long shelf-life.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Slide-Out Cart Drawer -->
+  <div class="cart-drawer" id="cart-drawer">
+    <div class="cart-drawer-header">
+      <span class="cart-drawer-title"><i class="fa-solid fa-shopping-basket"></i> Your Basket</span>
+      <button id="cart-drawer-close" class="close-btn" aria-label="Close Cart"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    
+    <div class="cart-drawer-items" id="cart-drawer-items">
+      <!-- Dynamically filled with items -->
+      <div class="empty-cart-message">
+        <i class="fa-solid fa-basket-shopping"></i>
+        <p>Your basket is currently empty.</p>
+        <a href="#shop" class="btn btn-primary" onclick="document.getElementById('cart-drawer').classList.remove('open'); document.body.classList.remove('no-scroll')">Browse Products</a>
+      </div>
+    </div>
+
+    <div class="cart-drawer-footer" id="cart-drawer-footer" style="display: none;">
+      <!-- Free Shipping Goal Tracker -->
+      <div class="shipping-tracker-container">
+        <div class="tracker-message" id="shipping-tracker-msg">
+          Add <strong>₹150</strong> more for <strong>Free Delivery</strong>
+        </div>
+        <div class="tracker-bar-bg">
+          <div class="tracker-bar-fill" id="shipping-tracker-bar" style="width: 70%;"></div>
+        </div>
+      </div>
+
+      <div class="cart-subtotal">
+        <span>Subtotal:</span>
+        <span class="subtotal-price" id="cart-subtotal-price">₹0</span>
+      </div>
+      <p class="cart-delivery-note"><i class="fa-solid fa-truck-fast"></i> Quick doorstep delivery across the region.</p>
+      
+      <!-- Checkout Button via WhatsApp -->
+      <button id="whatsapp-checkout-btn" class="btn btn-checkout">
+        <i class="fa-brands fa-whatsapp"></i> Place Order via WhatsApp
+      </button>
+    </div>
+  </div>
+
+  <!-- Backdrop overlay when menu or cart is open -->
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+
+  <!-- Micro-Toast Alert System -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- Bottom Site Footer -->
+  <footer class="site-footer">
+    <div class="section-container">
+      <div class="footer-grid">
+        <div class="footer-brand-info">
+          <div class="footer-logo"><i class="fa-solid fa-mortar-pestle"></i> స్కంద ఎంటర్‌ప్రైజెస్</div>
+          <p>Delivering authentic, pure wood-pressed cold-pressed oils. Handcrafted with care, packed with natural nutrition.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Youtube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="#shop">Storefront</a>
+          <a href="#sourcing">Farmer Corner</a>
+          <a href="#process">Our Extraction</a>
+          <a href="#faqs">FAQs</a>
+          <a href="#testimonials">Reviews</a>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact & Location</h4>
+          <p><i class="fa-solid fa-phone"></i> +91 90000 55035</p>
+          <p><i class="fa-solid fa-envelope"></i> contact@skandaenterprises.com</p>
+          <p><i class="fa-solid fa-map-location-dot"></i> Kallur, P. G. Road  - 517113</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Skanda Enterprises. All rights reserved. Sourced honestly, made ethically.</p>
+        <p class="developer-credit"></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919000055035" target="_blank" rel="noopener" class="whatsapp-fab-button" id="whatsapp-fab-link" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="fab-tooltip">Chat with us</span>
+  </a>
+
+  <!-- Back To Top Button -->
+  <button id="back-to-top-btn" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- Script File -->
+  <script src="script.js"></script>
+</body>
+</html>
