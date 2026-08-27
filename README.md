@@ -1,7 +1,7 @@
 # Skanda Enterprises — Website
 
 A single-page e-commerce site for wood cold-pressed oils, organic powders, and
-farmer seed sourcing. Bilingual — Telugu (primary) and English.
+farmer seed sourcing. Bilingual — Telugu (primary) and English
 Deployed Link -- https://sadasiva18.github.io/Skanda_Enterprises/
 ## Files
 
