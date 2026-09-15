@@ -201,13 +201,6 @@
               "requirement": { "te": "పొట్టు గింజలు, సన్న రకం.", "en": "Polished, dry seeds free from small stones." }
             },
             {
-              "te": "కుంకుడుకాయలు",
-              "en": "Soapnuts",
-              "image": "images/Soapnuts.jpg",
-              "buyingPrice": "₹25 / kg",
-              "requirement": { "te": "పూర్తిగా ఎండిన, మంచి నాణ్యత గల కుంకుడుకాయలు. రాళ్లు, మట్టి మరియు ఇతర మలినాలు లేకుండా ఉండాలి.", "en": "Fully dried, good-quality soapnuts free from stones, soil, and other impurities." }
-            },
-            {
               "te": "పాత చింతపండు",
               "en": "Old Tamarind",
               "image": "images/old-tamarind.jpg",
